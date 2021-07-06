@@ -1,4 +1,4 @@
-<h2 class="text-success text-center font-weight-bold">Daftar Member</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Daftar Member</h2>
 <p>Berikut adalah daftar member yang tergabung dalam sistem toko online.</p>
 <div class="table-responsive">
 

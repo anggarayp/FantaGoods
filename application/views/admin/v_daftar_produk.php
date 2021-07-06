@@ -1,7 +1,7 @@
-<h2 class="text-success text-center font-weight-bold">Daftar Produk</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Daftar Produk</h2>
 <p>Berikut adalah daftar produk yang tersedia untuk ditampilkan dihalaman depan dan halaman member.</p>
 <p>
-    <a href="<?php echo site_url('produk/tambah');?>" class="btn btn-primary btn-sm text-center">Tambah Produk</a> 
+    <a href="<?php echo site_url('produk/tambah');?>" class="btn btn-primary btn-sm text-center" style="background-color: #4ad943; border: 2px solid #4ad943"><i class="fas fa-plus"></i> Tambah Produk</a> 
 </p>
 <ul class="list-group">
     <?php
@@ -11,7 +11,7 @@
             ?>
                     
             <li class="list-group-item">
-                <h3 class="text-primary font-weight-bold"><?php echo $produk['kode_produk'].' - '.$produk['nama_produk'];?></h3>                
+                <h3 class="font-weight-bold" style="color: #023980"> <?php echo $produk['kode_produk'].' - '.$produk['nama_produk'];?></h3>                
                 <div class="row">
                     <div class="col-md-2">
                         <img src="<?php echo base_url('gambar/'.$produk['photo_produk']);?>" class="img-thumbnail"/>
@@ -51,13 +51,13 @@
                         <!-- kolom tombol-->
                     <div class="col-md-1">
                         <div class="row mt-1">
-                            <a href="#" class="btn btn-info btn-sm text-center btn-block">Edit</a> 
+                            <a href="#" class="btn btn-info btn-sm text-center btn-block" style="background-color: #ff9966; border: 2px solid #ff9966">Edit</a> 
                         </div>
                         <div class="row mt-1">
                             <a href="#" class="btn btn-danger btn-sm text-center btn-block" data-confirm="Anda yakin akan menghapus produk <?php echo $produk['kode_produk'];?> ?">Delete</a>
                         </div>
                         <div class="row mt-1">
-                            <a href="#" class="btn btn-primary btn-sm text-center btn-block">Ganti Photo</a>
+                            <a href="#" class="btn btn-primary btn-sm text-center btn-block" style="background-color: #6592e6; border: 2px solid #6592e6">Ganti Photo</a>
                         </div>
                     </div>
                 </div>

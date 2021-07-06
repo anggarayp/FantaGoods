@@ -1,4 +1,4 @@
-<h2 class="font-weight-bold text-center text-success">Penambahan Produk</h2>
+<h2 class="font-weight-bold text-center mt-4" style="color: #023980">Penambahan Produk</h2>
 <p>Gunakan form dibawah ini untuk menambah produk baru yang akan dijual.</p>
 
 <form method="POST" action="<?php echo site_url('produk/simpan')?>" enctype="multipart/form-data">

@@ -1,4 +1,4 @@
-<h2 class="text-success text-center font-weight-bold">Daftar Order Member</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Daftar Order Member</h2>
 <p>Berikut adalah daftar order pembelian  oleh member.</p>
 <div class="table-responsive">
 	<table class="table table-bordered table-hover">
@@ -30,7 +30,7 @@
 				<td class="text-center">
 					
 					<!--<a href="<?php echo site_url('order/detail/'.$DataOrder['id_pembelian']);?>" class="btn btn-info btn-sm">Detail</a>-->
-					<a href="<?php echo site_url('order/detail/'.$DataOrder['id_pembelian']);?>"  class="btn btn-success btn-sm" data-judul="Detail Order" data-toggle="modal" data-target="#KotakDialog">Detail</a>							
+					<a href="<?php echo site_url('order/detail/'.$DataOrder['id_pembelian']);?>"  class="btn btn-success btn-sm" style="background-color: #4ad943; border: 2px solid #4ad943" data-judul="Detail Order" data-toggle="modal" data-target="#KotakDialog">Detail</a>							
 				</td>
 			</tr>	
 			<?php

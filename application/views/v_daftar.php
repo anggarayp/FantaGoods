@@ -1,4 +1,4 @@
-<h2 class="text-center text-success  font-weight-bold mt-4">Pendaftaran</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Pendaftaran</h2>
 <p>Silakan gunakan form dibawah ini untuk untuk mendaftar sebagai member di toko kami</p>
 
 <?php echo $this->session->userdata('pesan_login');?>
@@ -18,8 +18,8 @@ oninvalid="this.setCustomValidity('Tidak boleh dikosongkan.')"  onchange="this.s
 	</div>
 	
 	<div class="form-group">
-		<label class="font-weight-bold">Password</label>
-		<input type="password" class="form-control" name="pass_txt" placeholder="Masukkan password" placeholder="Masukkan email" required="required" 
+		<label class="font-weight-bold">Kata Sandi</label>
+		<input type="password" class="form-control" name="pass_txt" placeholder="Masukkan kata sandi" placeholder="Masukkan email" required="required" 
 oninvalid="this.setCustomValidity('Tidak boleh dikosongkan.')"  onchange="this.setCustomValidity('')"/>
 	</div>
 
@@ -30,8 +30,8 @@ oninvalid="this.setCustomValidity('Tidak boleh dikosongkan.')"  onchange="this.s
 	</div>
 		
 	<div class="form-group">
-		<a href="<?php echo site_url('home/login');?>" class="btn btn-success">Login</a> 
-		<button type="submit" class="btn btn-danger">Buat Akun</button>
+		<button type="submit" class="btn text-white" style="background-color: #023980">Buat Akun</button>
+		<br>Sudah memiliki akun? <a href="<?php echo site_url('home/login');?>">Masuk disini</a> 
 	</div>
 </form>
 

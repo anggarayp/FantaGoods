@@ -1,4 +1,4 @@
-<h2 class="text-success text-center font-weight-bold">Daftar Inbox</h2>
+<h2 class="text-center font-weight-bold  mt-4" style="color: #023980">Daftar Inbox</h2>
 <p>Berikut adalah daftar pesan masuk yang dikirim oleh member/pengunjung.</p>
 <div class="table-responsive">
 	<table class="table table-bordered table-hover">

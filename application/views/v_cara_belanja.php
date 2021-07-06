@@ -1,4 +1,4 @@
-<h2 class="text-center text-success  font-weight-bold mt-4">Panduan Belanja Online</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Panduan Belanja Online</h2>
 
 <p class="font-weight-bold">A. Tata Cara Belanja</p>
 <p>Untuk pelayanan optimal silahkan ikuti panduan belanja online berikut :</p>

@@ -1,4 +1,4 @@
-<h2 class="text-center text-success font-weight-bold mt-3">Hasil Pencarian Produk <?php echo $this->input->post('KataKunci');?></h2>
+<h2 class="text-center font-weight-bold mt-3" style="color: #023980">Hasil Pencarian Produk <?php echo $this->input->post('KataKunci');?></h2>
 <div class="row">
 			<!-- item produk -->
 			<?php

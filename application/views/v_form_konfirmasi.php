@@ -1,4 +1,4 @@
-<h2 class="text-center text-success  font-weight-bold mt-4">Form Konfirmasi</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Form Konfirmasi</h2>
 <p>Silahkan upload bukti pembayaran pada form dibawah ini !</p>
 
 
@@ -47,7 +47,7 @@
 		
 	<div class="form-group row">
 		<div class="col-md-12">
-			<button type="submit" class="btn btn-primary">Upload</button>
+			<button type="submit" class="btn btn-primary" style="background-color: #6592e6; border: 2px solid #6592e6">Upload</button>
 		</div>
 	</div>
 </form>

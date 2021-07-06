@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no"/>
 	<meta name="description" content="">
 	<meta name="author" content=""/>
+	<link rel="icon" href="<?php echo base_url('gambar/fantagoods.png')?>">
 	<title>FantaGoods</title>
 	<link rel="stylesheet" href="<?php echo base_url('bootstrap/css/bootstrap.css');?>"/>
 </head>
@@ -96,17 +97,17 @@
           </ul>
 		  
           <form class="form-inline my-2 my-lg-0" method="POST" action="<?php echo site_url('home/Pencarian');?>">
-            <input class="form-control mr-sm-2" name="KataKunci" type="text" placeholder="Search" aria-label="Search">
-			<button class="btn btn-info my-2 my-lg-0 mr-sm-2" type="submit">Cari</button>
+            <input class="form-control " name="KataKunci" type="text" placeholder="Cari barang di sini..." aria-label="Cari barang di sini...">
+			<button class="btn btn-white my-2 my-lg-0 mr-sm-2" style="border: 2px solid #D4D4D4" type="submit"><i class="fas fa-search"></i></button>
 		  <?php
 		  if($this->session->userdata('SudahkahLogin')){ // jika sudah login yg tampil tombol logout
 		  ?>
-			<a href="<?php echo site_url('member/Logout');?>" class="btn btn-primary my-2 my-lg-0">Logout</a>        			  
+			<a href="<?php echo site_url('member/Logout');?>" class="btn btn-danger my-2 my-lg-0">Keluar</a>        			  
 		  <?php } 
 			else { // jika belum login yg tampil tombol login 
 				?>
-			<a href="<?php echo site_url('home/BuatAkun');?>" class="btn btn-info my-2 my-lg-0"><b>Sign Up</b></a>      
-			<a href="<?php echo site_url('home/login');?>" class="btn btn-white my-2 my-lg-0 text-info"><b>Login</b></a>   
+			<a href="<?php echo site_url('home/BuatAkun');?>" class="btn text-white my-2 my-lg-0" style="background-color: #023980"><b>Daftar</b></a>      
+			<a href="<?php echo site_url('home/login');?>" class="btn btn-white my-2 my-lg-0" style="color: #023980"><b>Masuk</b></a>   
 		  <?php } ?>
           </form>
 	  </div>
@@ -132,7 +133,7 @@
 		  <!-- Modal Header -->
 		  <div class="modal-header">
 			<h4 class="modal-title">Modal Heading</h4>
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
 		  </div>
 
 		  <!-- Modal body -->
@@ -166,7 +167,7 @@
 <!--footer-->
 	
 	
-	
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>	
 <script src="<?php echo base_url('bootstrap/js/jquery-3.3.1.min.js');?>"></script>
 <script src="<?php echo base_url('bootstrap/js/bootstrap.js');?>"></script>
 <script>

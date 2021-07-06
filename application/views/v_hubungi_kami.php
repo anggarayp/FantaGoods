@@ -1,4 +1,4 @@
-<h2 class="text-center text-success  font-weight-bold mt-4">Hubungi Kami</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Hubungi Kami</h2>
 <p>Silakan gunakan form dibawah ini untuk menghubungi customer kami</p>
 
 <?php echo $this->session->userdata('pesan_terkirim');?>
@@ -29,7 +29,7 @@
 	</div>
 	
 	<div class="form-group">
-		<button type="submit" class="btn btn-success">Kirim</button>
+		<button type="submit" class="btn btn-success" style="background-color: #4ad943; border: 2px solid #4ad943">Kirim</button>
 	</div>
 </form>
 

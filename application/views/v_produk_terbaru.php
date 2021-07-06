@@ -1,4 +1,4 @@
-<h2 class="text-center text-success font-weight-bold mt-3">Produk Terbaru</h2>
+<h2 class="text-center font-weight-bold mt-3" style="color: #023980">Produk Terbaru</h2>
 		<div class="row">
 			<!-- item produk -->
 			<?php
@@ -13,8 +13,8 @@
 						<div class="card-body">
 							<div class="text-center">
 							<p class="font-weight-bold">Rp. <?php echo number_format($DataProduk['harga_jual'],0,',','.');?>	</p>
-							<a href="<?php echo site_url('home/detail/'.$DataProduk['kode_produk']);?>" class="btn btn-info" data-judul="Detail Produk" data-toggle="modal" data-target="#KotakDialog">Detail</a>
-							<a href="<?php echo site_url('home/beli/'.$DataProduk['kode_produk']);?>" class="btn btn-danger">Beli</a>
+							<a href="<?php echo site_url('home/detail/'.$DataProduk['kode_produk']);?>" class="btn btn-info" style="background-color: #ff9966; border: 2px solid #ff9966" data-judul="Detail Produk" data-toggle="modal" data-target="#KotakDialog">Detail</a>
+							<a href="<?php echo site_url('home/beli/'.$DataProduk['kode_produk']);?>" class="btn btn-danger" style="background-color: #6592e6; border: 2px solid #6592e6">Beli</a>
 						</div>
 					</div>
 				</div>

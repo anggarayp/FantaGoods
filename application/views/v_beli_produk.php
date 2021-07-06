@@ -1,4 +1,4 @@
-<h2 class="text-center text-success  font-weight-bold mt-4">Beli Produk</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Beli Produk</h2>
 
 <div class="row">
 	<div class="col-md-4  text-center">
@@ -42,8 +42,8 @@ oninvalid="this.setCustomValidity('Tidak boleh dikosongkan.')"  onchange="this.s
 			</div>
 		</div>
 
-		<button type="button" class="btn btn-primary" OnClick="javascript:history.back()">Kembali</button>
-		<button type="submit" class="btn btn-danger">Beli</button>
+		<button type="button" class="btn btn-danger" OnClick="javascript:history.back()">Kembali</button>
+		<button type="submit" class="btn text-white" style="background-color: #6592e6; border: 2px solid #6592e6">Beli</button>
 		
 		</form>
 	</div>

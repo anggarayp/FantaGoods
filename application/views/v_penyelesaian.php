@@ -1,4 +1,4 @@
-<h2 class="text-center text-success  font-weight-bold mt-4">Penyelesaian Pembelian</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Penyelesaian Pembelian</h2>
 <p>Untuk menyelesaikan proses pembelian silahkan lengkapi form dibawah ini</p>
 
 <form method="POST" action="<?php echo site_url('home/SelesaikanBelanja');?>">
@@ -53,7 +53,7 @@
 	
 	<div class="form-group row">
 		<div class="col-md-12">
-			<button type="submit" class="btn btn-primary">Selesaikan Belanja</button>
+			<button type="submit" class="btn text-white" style="background-color: #6592e6; border: 2px solid #6592e6">Selesaikan Belanja</button>
 		</div>
 	</div>
 </form>

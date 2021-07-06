@@ -1,4 +1,4 @@
-<h2 class="text-center text-success  font-weight-bold mt-4">Login</h2>
+<h2 class="text-center font-weight-bold mt-4" style="color: #023980">Login</h2>
 <p>Silakan gunakan form dibawah ini untuk untuk login ke akun anda</p>
 
 <?php 
@@ -14,14 +14,15 @@ oninvalid="this.setCustomValidity('Tidak boleh dikosongkan.')"  onchange="this.s
 	</div>
 	
 	<div class="form-group">
-		<label class="font-weight-bold">Password</label>
-		<input type="password" class="form-control" name="pass_txt" placeholder="Masukkan password" required="required" 
+		<label class="font-weight-bold">Kata Sandi</label>
+		<input type="password" class="form-control" name="pass_txt" placeholder="Masukkan kata sandi" required="required" 
 oninvalid="this.setCustomValidity('Tidak boleh dikosongkan.')"  onchange="this.setCustomValidity('')"/>
 	</div>
 	
 	<div class="form-group">
-		<a href="<?php echo site_url('home/BuatAkun');?>" class="btn btn-success">Buat Akun</a> 
-		<button type="submit" class="btn btn-danger">Login</button>
+		<button type="submit" class="btn text-white" style="background-color: #023980">Masuk</button>
+		<br>Belum memiliki akun? <a href="<?php echo site_url('home/BuatAkun');?>">Buat akun disini</a> 
+		
 	</div>
 </form>
 
